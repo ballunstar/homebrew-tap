@@ -1,6 +1,7 @@
 # ballunstar/homebrew-tap
 
 ```bash
+brew trust ballunstar/tap        # recent Homebrew asks for this first
 brew install ballunstar/tap/vibewidget
 vibewidget-refresh
 ```
