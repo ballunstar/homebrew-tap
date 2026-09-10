@@ -1,10 +1,12 @@
 # ballunstar/homebrew-tap
 
 ```bash
-brew trust ballunstar/tap        # recent Homebrew asks for this first
 brew install ballunstar/tap/vibewidget
 vibewidget-refresh
 ```
+
+There is no `brew tap` step. Naming the formula in full is what tells recent
+Homebrew you trust it; tapping the whole tap first is what gets refused.
 
 [VibeWidget](https://github.com/ballunstar/vibe-widget) is a macOS menu bar app
 and widget showing how much Claude and Codex usage is left.
